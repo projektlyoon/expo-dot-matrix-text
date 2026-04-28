@@ -7,6 +7,14 @@ The package has no native code and does not depend on Skia, SVG, Canvas,
 Reanimated, or Expo-specific APIs. It works in Expo Go, development builds,
 plain React Native apps, and React Native Web.
 
+![INSTALL UNKIND rendered with dot matrix text](https://raw.githubusercontent.com/projektlyoon/expo-dot-matrix-text/main/docs/install-unkind-preview.png)
+
+## Preview
+
+![Animated dot matrix text demo](https://raw.githubusercontent.com/projektlyoon/expo-dot-matrix-text/main/docs/install-unkind-demo.gif)
+
+![Dot matrix text variants showcase](https://raw.githubusercontent.com/projektlyoon/expo-dot-matrix-text/main/docs/install-unkind-showcase.png)
+
 ## Installation
 
 ```sh
@@ -39,46 +47,6 @@ With custom styling:
   variant="dots"
 />
 ```
-
-## Adding Images and GIFs to Your Docs
-
-The best way to show this library is with a screenshot and a short animated GIF
-in your README.
-
-Recommended project structure:
-
-```txt
-docs/
-  screenshot.png
-  demo.gif
-```
-
-Use standard Markdown:
-
-```md
-![Dot matrix text screenshot](docs/screenshot.png)
-
-![Dot matrix text animation](docs/demo.gif)
-```
-
-If you want the media to display reliably on both GitHub and npm, use absolute
-GitHub raw URLs after pushing the files:
-
-```md
-![Dot matrix text screenshot](https://raw.githubusercontent.com/projektlyoon/expo-dot-matrix-text/main/docs/screenshot.png)
-
-![Dot matrix text animation](https://raw.githubusercontent.com/projektlyoon/expo-dot-matrix-text/main/docs/demo.gif)
-```
-
-Good examples to capture:
-
-- `INSTALL UNKIND` in the default rounded style.
-- A neon/orange `dots` variant.
-- A `square` variant with inactive cells visible.
-- A GIF cycling through text, color, or size changes.
-
-Keep GIFs small for npm. A width around `600-900px` and a duration under
-`5-8s` usually works well.
 
 ## Usage
 

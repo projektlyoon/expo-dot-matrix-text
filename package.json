@@ -1,6 +1,6 @@
 {
   "name": "expo-dot-matrix-text",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight Expo-compatible React Native component library for rendering customizable 5x5 dot-matrix text using pure View-based glyphs.",
   "source": "src",
   "main": "lib/commonjs/index.js",
