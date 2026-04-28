@@ -415,32 +415,6 @@ This library is pure React Native UI. It can be used in:
 
 No native install step is required.
 
-## Development
-
-Build the package:
-
-```sh
-corepack yarn prepare
-```
-
-Run tests:
-
-```sh
-corepack yarn test
-```
-
-Pack a local tarball for testing in another app:
-
-```sh
-corepack yarn pack
-```
-
-Install the tarball in another app:
-
-```sh
-yarn add /absolute/path/to/expo-dot-matrix-text/package.tgz
-```
-
 ## License
 
 MIT
